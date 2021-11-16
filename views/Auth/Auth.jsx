@@ -1,17 +1,17 @@
 import React from 'react';
 import { Image, Text } from 'react-native';
 import logo from '../../assets/logo.png';
-import Button from '../../components/Button/Button';
-import { ContainerView, FormView, LogoView } from './styles';
+import Login from './Login';
+import { ContainerView, FormView, LogoImage, LogoView } from './styles';
 console.log(logo);
 const Auth = () => {
 	return (
 		<ContainerView>
 			<LogoView>
-				<Image source={logo} />
+				<LogoImage source={logo} />
 			</LogoView>
 			<FormView>
-				<Button onPress={() => console.log('Hola')} label={'Iniciar sesión'} width={'65%'} height={'10%'} />
+				<Login />
 			</FormView>
 		</ContainerView>
 	);

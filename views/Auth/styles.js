@@ -14,9 +14,19 @@ export const LogoView = styled.View`
 	justify-content: center;
 `;
 
+export const LogoImage = styled.Image`
+	width: 35%;
+	height: 45%;
+`;
+
 export const FormView = styled.View`
 	width: 100%;
 	height: 60%;
 	align-items: center;
 	justify-content: center;
+`;
+
+export const LoginView = styled.View`
+	width: 100%;
+	height: 100%;
 `;

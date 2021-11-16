@@ -16,8 +16,15 @@ export const ButtonWithStyles = styled.TouchableOpacity`
 	};
 `;
 
-export const TextButton = styled.Text`
-	color: white;
-	font-size: 18;
+export const LabelInput = styled.Text`
+	color: rgba(255, 255, 255, 0.7);
+	font-size: 14;
 	font-weight: 600;
+`;
+
+export const InputWithStyles = styled.View`
+	width: 80%;
+	height: 50px;
+	border-radius: 14px;
+	color: white;
 `;
